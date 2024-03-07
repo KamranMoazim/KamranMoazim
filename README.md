@@ -57,4 +57,4 @@
     <img src="https://komarev.com/ghpvc/?username=KamranMoazim">
 </a>
 <a href="https://github.com/developer-junaid?tab=followers"><img src="https://img.shields.io/github/followers/KamranMoazim?label=Followers&style=social" alt="GitHub Badge"></a> -->
-- 📫 How to reach me **kamranmoazim765@gmail.com**
+- 📫 How to reach me **kamrannaseer765@gmail.com**
