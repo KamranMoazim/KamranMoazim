@@ -47,28 +47,16 @@
 
 
 ### ☁️ AWS Technologies
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Compute/16/Arch_AWS-Lambda_16.svg" width="20"> **Lambda**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Compute/16/Arch_Amazon-EC2_16.svg" width="20"> **EC2**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Compute/16/Arch_AWS-Fargate_16.svg" width="20"> **Fargate**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Storage/16/Arch_Amazon-Simple-Storage-Service_16.svg" width="20"> **S3**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Database/16/Arch_Amazon-RDS_16.svg" width="20"> **RDS**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Database/16/Arch_Amazon-DynamoDB_16.svg" width="20"> **DynamoDB**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Database/16/Arch_AWS-Database-Migration-Service_16.svg" width="20"> **DMS**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Developer-Tools/16/Arch_AWS-Cloud-Development-Kit_16.svg" width="20"> **CDK**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Machine-Learning/16/Arch_Amazon-Lex_16.svg" width="20"> **Lex**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Machine-Learning/16/Arch_Amazon-Polly_16.svg" width="20"> **Polly**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Machine-Learning/16/Arch_Amazon-Rekognition_16.svg" width="20"> **Rekognition**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Machine-Learning/16/Arch_Amazon-Textract_16.svg" width="20"> **Textract**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Machine-Learning/16/Arch_Amazon-Transcribe_16.svg" width="20"> **Transcribe**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Machine-Learning/16/Arch_Amazon-SageMaker_16.svg" width="20"> **SageMaker**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Analytics/Arch_16/Arch_AWS-Glue_16.svg" width="20"> **Glue**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Analytics/Arch_16/Arch_Amazon-Redshift_16.svg" width="20"> **Redshift**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Analytics/Arch_16/Arch_Amazon-OpenSearch-Service_16.svg" width="20"> **OpenSearch**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Analytics/Arch_16/Arch_Amazon-Kinesis_16.svg" width="20"> **Kinesis**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_Business-Applications/16/Arch_Amazon-Simple-Email-Service_16.svg" width="20"> **SES**
-<img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/q1-2022/Architecture-Service-Icons_01312022/Arch_End-User-Computing/16/Arch_Amazon-WorkSpaces_16.svg" width="20"> **WorkSpaces**
+![Lambda](https://img.shields.io/badge/Lambda-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![ECS](https://img.shields.io/badge/ECS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API%20Gateway-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Cognito](https://img.shields.io/badge/Cognito-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![SQS](https://img.shields.io/badge/SQS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ### 📚 Other Tools
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
