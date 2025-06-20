@@ -37,7 +37,6 @@
 ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
 ![Docker](https://img.shields.io/badge/Docker-grey?style=for-the-badge&logo=docker)
 ![K8S](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ### 💾 Database
  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -45,7 +44,22 @@
  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
  ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
  ![Clickhouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=white)
-<br/>
+
+### ☁️ AWS Technologies
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS%20Lambda-%23FF9900.svg?style=for-the-badge&logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
+![EC2](https://img.shields.io/badge/Amazon%20EC2-%23FF9900.svg?style=for-the-badge&logo=amazonec2&logoColor=white)
+![S3](https://img.shields.io/badge/Amazon%20S3-%23569A31.svg?style=for-the-badge&logo=amazons3&logoColor=white)
+![RDS](https://img.shields.io/badge/Amazon%20RDS-%23527FFF.svg?style=for-the-badge&logo=amazonrds&logoColor=white)
+![ECS](https://img.shields.io/badge/Amazon%20ECS-%23FF9900.svg?style=for-the-badge&logo=amazonecs&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/Amazon%20CloudWatch-%23FF4F8B.svg?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
+![API Gateway](https://img.shields.io/badge/Amazon%20API%20Gateway-%23FF4F8B.svg?style=for-the-badge&logo=amazonapigateway&logoColor=white)
+![Cognito](https://img.shields.io/badge/Amazon%20Cognito-%23DD344C.svg?style=for-the-badge&logo=amazon&logoColor=white)
+![SQS](https://img.shields.io/badge/Amazon%20SQS-%23FF4F8B.svg?style=for-the-badge&logo=amazonsqs&logoColor=white)
+![SNS](https://img.shields.io/badge/Amazon%20SNS-%23FF4F8B.svg?style=for-the-badge&logo=amazonsqs&logoColor=white)
+![VPC](https://img.shields.io/badge/Amazon%20VPC-%23FF9900.svg?style=for-the-badge&logo=amazon&logoColor=white)
+![IAM](https://img.shields.io/badge/AWS%20IAM-%23DD344C.svg?style=for-the-badge&logo=amazon&logoColor=white)
 
 ### 📚 Other Tools
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
