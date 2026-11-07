@@ -1,77 +1,78 @@
-<!-- <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a> -->
-<!-- <a href="#"><img width="100%" height="auto" src="./final.jpg" height="100px"/></a> -->
-<!-- <a href="#"><img width="100%" height="auto" src="https://simplabs.com/assets/images/posts/2021-05-26-keeping-a-clean-git-history/illustration-a40c9543b15297efda375329d5ee380d.svg" height="175px"/></a> -->
+<h1 align="center">Hi, I'm Kamran Moazim 👋</h1>
+<h3 align="center">Backend & AI Engineer · AWS Bedrock, AgentCore, MCP, RAG · Spring Boot · FastAPI · Node.js</h3>
+<p align="center">I build AI-powered backend systems on AWS, mostly for fintech and healthcare. Based in Lahore, Pakistan (UTC+5), working remotely.</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/kamran-moazim"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://x.com/KamranMoazim"><img src="https://img.shields.io/badge/@KamranMoazim-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
+  <a href="mailto:kamrannaseer765@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+ </a>
+</p>
+
+## 🙋‍♂️ About me
+
+- 💼 Software Engineer at **Complyport** (formerly Map Fintech), building **Polaris**, a financial and regulatory reconciliation platform
+- ☁️ ~4 years across backend development, AWS architecture (CDK-first, zero-idle-cost serverless) and Generative AI
+- 🤖 Day-to-day focus: **Amazon Bedrock, AgentCore + MCP, RAG pipelines** and private, no-egress AWS networking
+- 🎓 BS Computer Science, PUCIT Lahore (CGPA 3.67)
+- 📫 Open to **remote backend / AI engineering roles** and AWS GenAI consulting
+
+## 💼 Experience
+
+**Software Engineer · Complyport (formerly Map Fintech)** · Cyprus, remote · Nov 2025 to present
+- Full-stack features for Polaris Reconciliation in Spring Boot + React/TypeScript on a strict controller → boundary → service → repository architecture
+- Records comparison engine for reconciliation reporting across financial datasets
+- Configurable file ingestion (CSV / XLSX / XML / JSON) with splitters and dynamic field mapping via SpEL
+- ClickHouse as an optional, per-company analytical persistence layer alongside MariaDB
+- Role-adaptive dashboards and analytics endpoints with RBAC, plus a Playwright end-to-end test suite
+
+**Software Engineer · DocNow EHR** · Bellevue, WA, hybrid · 2024 to 2025
+- Designed a MongoDB → ClickHouse ETL pipeline with Apache Kafka + Node.js for real-time change capture
+- Built Apache Superset reports used by providers for clinical decision-making
+- Optimised MongoDB aggregation pipelines and integrated third-party insurance APIs
+
+## 🛠️ Open-source projects
+
+<!-- Confirm each repo is public before pushing. Replace REPO-NAME where shown. -->
+
+| Project | What it does | Built with |
+|---|---|---|
+| [aws-serverless-ai-patterns](https://github.com/KamranMoazim/aws-serverless-ai-patterns) | Deploy-ready AWS CDK reference patterns for serverless and GenAI workloads, designed for zero idle cost | CDK, Lambda, Bedrock, AgentCore, S3 Vectors |
+| [serverless-mail-mcp](https://github.com/KamranMoazim/serverless-mail-mcp) | A fully serverless mail system with an MCP layer, so AI agents can read and send mail | SES, Lambda, S3, DynamoDB, MCP |
+
+## ⚡ Selected work
+
+Highlights from client and portfolio builds (code private):
+
+- **MCP gateway beyond the 100-tool limit.** Amazon QuickSight caps MCP servers at 100 tools, and the client needed more. I built an AgentCore MCP Gateway with Cognito RBAC and semantic tool search, and exposed it through a two-tool `searchTools` / `invokeTool` proxy on AgentCore Runtime. Delivered with a 5★ review.
+- **Large-scale RAG without an OpenSearch bill.** Serverless ingestion with S3 Vectors and Step Functions Distributed Map, plus DynamoDB-native vector search, all in CDK.
+- **Multi-tenant RAG with document-level access control** in Spring AI + pgvector, using a grant-based permission model that cascades effective scope across folders and knowledge bases.
+- **Browser automation at scale.** A multi-tenant SaaS running Playwright workers on ECS Fargate, driven by SQS and EventBridge Scheduler.
+- **Phone-call analytics pipeline.** S3 → SQS → Transcribe → Comprehend → Bedrock (Claude) → DynamoDB, with an API Gateway front end.
+- **HIPAA-aligned clinic operations platform** on FastAPI, Aurora Serverless v2, Cognito and KMS.
+- **Live streaming with AI subtitles.** MediaLive → MediaPackage → CloudFront with Elemental Inference smart subtitles.
+- **KnowledgeDesk, a RAG app built entirely on Cloudflare.** Workers, D1, R2, Queues, Workflows, Vectorize, hybrid search (FTS5 + vectors + reranker), Durable Object chat agents, and a remote MCP server with OAuth.
 
 
-<h1 align="center">Hi, I'm Kamran Moazim</h1>
-<h3 align="center">A Full Stack Developer from Pakistan.</h3>
+## 🚀 Tech stack
 
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,py,fastapi,ts,nodejs,nestjs,express,prisma,react,nextjs&perline=11" alt="Languages and frameworks"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=aws,cloudflare,dynamodb,postgres,mysql,mongodb,redis,kafka,supabase,docker&perline=11" alt="Cloud, data and tools"/>
+</p>
 
-## 🙋‍♂️ About Me
-<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- - 🔭 I’m currently working on **<img src="./react.png"/>** -->
+- **Backend:** Java 21, Spring Boot 3, Spring AI, Spring Batch, Hibernate, Liquibase, Keycloak · Node.js (NestJS, Express, Prisma) · Python (FastAPI)
+- **Generative AI:** Amazon Bedrock, Bedrock AgentCore (Runtime, Gateway, Identity, Memory), MCP, RAG, Guardrails, Nova Sonic, S3 Vectors, pgvector
+- **AWS:** CDK, Lambda, API Gateway, Step Functions, EventBridge, SQS, ECS/Fargate, Aurora Serverless v2, Aurora DSQL, DynamoDB, S3, Cognito, KMS, SES, VPC Lattice, CloudFront, Transcribe, Comprehend, Textract
+- **Cloudflare:** Workers, D1, R2, KV, Queues, Workflows, Vectorize, Durable Objects, Workers AI
+- **Data:** PostgreSQL, MariaDB/MySQL, MongoDB, DynamoDB, ClickHouse, Redis, Kafka
+- **BI & testing:** Apache Superset, Metabase, Playwright
+- **Frontend:** React, TypeScript, Next.js, Redux Toolkit, Ant Design
 
-- 🎓 BS - Computer Science from **FCIT, Lahore.**
-- 🧑‍ Learn Learn & Learn **MOTO**
+---
 
-## 🚀 Technologies
-
-### 📋 Languages
- ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
- ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
- ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
- ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
- 
-### 📚 Frameworks, Platforms and Libraries
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![Docker](https://img.shields.io/badge/Docker-grey?style=for-the-badge&logo=docker)
-![K8S](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-### 💾 Database
- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
- ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
- ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
- ![Clickhouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=white)
-
-
-### ☁️ AWS Technologies
-![Lambda](https://img.shields.io/badge/Lambda-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![EC2](https://img.shields.io/badge/EC2-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![S3](https://img.shields.io/badge/S3-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![RDS](https://img.shields.io/badge/RDS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![ECS](https://img.shields.io/badge/ECS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/CloudWatch-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![API Gateway](https://img.shields.io/badge/API%20Gateway-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Cognito](https://img.shields.io/badge/Cognito-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![SQS](https://img.shields.io/badge/SQS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-### 📚 Other Tools
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
-![Apache Superset](https://img.shields.io/badge/Apache%20Superset-%2320A7C9.svg?style=for-the-badge&logo=apache-superset&logoColor=white)
-![Metabase](https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff)
-
-
-### 🥅 Work
- ![Upwork](https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white)
- ![Fiverr](https://img.shields.io/badge/Fiverr-0d8c54?style=for-the-badge&logo=Fiverr&logoColor=555555)
-
-
-<!-- ## ❤ Followers
-<!-- <a href="https://github.com/Meghna-DAS/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=KamranMoazim">
-</a>
-<a href="https://github.com/developer-junaid?tab=followers"><img src="https://img.shields.io/github/followers/KamranMoazim?label=Followers&style=social" alt="GitHub Badge"></a> -->
-- 📫 How to reach me **kamrannaseer765@gmail.com**
+<p align="center">
+  <b>Hiring for a remote backend or AI role?</b> <a href="https://www.linkedin.com/in/kamran-moazim">Connect on LinkedIn</a> or <a href="mailto:kamrannaseer765@gmail.com">email me</a>.<br/>
+  <b>Need AWS or GenAI work done?</b> <a href="https://calendly.com/kamrannaseer765/30min">Book a 30-minute call</a>.
+</p>
